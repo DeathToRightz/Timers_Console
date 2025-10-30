@@ -1279,3 +1279,19 @@ Detoured run took 1.7s
 [2025.10.30-23.13.25:484][445]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 332.943420
 [2025.10.30-23.13.26:485][448]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.10.30-23.13.26:485][448]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 333.610046, Update Interval: 332.057251
+[2025.10.30-23.14.33:517][895]LogSlate: Window 'Revision Control Login' being destroyed
+[2025.10.30-23.14.42:432][107]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2025.10.30-23.14.43:935][208]LogPSOHitching: Encountered 200 PSO creation hitches so far (49 graphics, 151 compute). 0 of them were precached.
+[2025.10.30-23.14.44:760][257]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.30-23.14.44:818][257]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/1X/SN5R6LIXKDO3W51X1TVUTZ
+[2025.10.30-23.14.44:819][257]LogSavePackage: Moving '../../../../../../Users/logan/OneDrive/Documents/GitHub/Timers_Console/TimerProjc/Saved/SN5R6LIXKDO3W51X1TVUTZC1CE731346C1BDAED3EAB88EFA4060A1.tmp' to '../../../../../../Users/logan/OneDrive/Documents/GitHub/Timers_Console/TimerProjc/Content/__ExternalActors__/FirstPerson/Lvl_FirstPerson/2/1X/SN5R6LIXKDO3W51X1TVUTZ.uasset'
+[2025.10.30-23.14.44:839][257]LogFileHelpers: InternalPromptForCheckoutAndSave took 79.682 ms
+[2025.10.30-23.14.44:876][257]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.30-23.14.44:876][257]LogContentValidation: Enabled validators:
+[2025.10.30-23.14.44:876][257]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.30-23.14.44:877][257]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.30-23.14.44:877][257]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.30-23.14.44:877][257]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.30-23.14.44:877][257]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.30-23.14.44:877][257]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.30-23.14.44:878][257]AssetCheck: /Game/FirstPerson/Lvl_FirstPerson Validating asset
