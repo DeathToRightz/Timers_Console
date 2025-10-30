@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\logan\\onedrive\\documents\\github\\timers_console\\timerprojc\\intermediate\\build\\win64\\unrealeditor\\inc\\timerprojc\\uht\\shooterpickup.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\logan\\onedrive\\documents\\github\\timers_console\\timerprojc\\intermediate\\build\\win64\\x64\\timerprojceditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\logan\\onedrive\\documents\\github\\timers_console\\timerprojc\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\timerprojc\\definitions.timerprojc.h",
+            "c:\\users\\logan\\onedrive\\documents\\github\\timers_console\\timerprojc\\source\\timerprojc\\variant_shooter\\weapons\\shooterpickup.h",
+            "c:\\users\\logan\\onedrive\\documents\\github\\timers_console\\timerprojc\\intermediate\\build\\win64\\unrealeditor\\inc\\timerprojc\\uht\\shooterpickup.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

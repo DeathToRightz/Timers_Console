@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "TimerProjc",
+			"Path": "..\\Source\\TimerProjc.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TimerProjcEditor",
+			"Path": "..\\Source\\TimerProjcEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

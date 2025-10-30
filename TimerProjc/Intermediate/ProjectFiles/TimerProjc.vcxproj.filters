@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TimerProjc.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TimerProjc.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TimerProjcEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TimerProjc">
+      <UniqueIdentifier>{11804474-886A-368D-A156-5A19464D094D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TimerProjc\TimerProjc.Build.cs">
+      <Filter>Source\TimerProjc</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TimerProjc\TimerProjc.cpp">
+      <Filter>Source\TimerProjc</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TimerProjc\TimerProjc.h">
+      <Filter>Source\TimerProjc</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TimerProjc\TimerProjcCameraManager.cpp">
+      <Filter>Source\TimerProjc</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TimerProjc\TimerProjcCameraManager.h">
+      <Filter>Source\TimerProjc</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TimerProjc\TimerProjcCharacter.cpp">
+      <Filter>Source\TimerProjc</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TimerProjc\TimerProjcCharacter.h">
+      <Filter>Source\TimerProjc</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TimerProjc\TimerProjcGameMode.cpp">
+      <Filter>Source\TimerProjc</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TimerProjc\TimerProjcGameMode.h">
+      <Filter>Source\TimerProjc</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TimerProjc\TimerProjcPlayerController.cpp">
+      <Filter>Source\TimerProjc</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TimerProjc\TimerProjcPlayerController.h">
+      <Filter>Source\TimerProjc</Filter>
+    </ClInclude>
+    <Filter Include="Source\TimerProjc\Variant_Horror">
+      <UniqueIdentifier>{450DB6F6-74FF-31BC-A58B-D16BCCAB73BE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TimerProjc\Variant_Horror\HorrorCharacter.cpp">
+      <Filter>Source\TimerProjc\Variant_Horror</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TimerProjc\Variant_Horror\HorrorCharacter.h">
+      <Filter>Source\TimerProjc\Variant_Horror</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TimerProjc\Variant_Horror\HorrorGameMode.cpp">
+      <Filter>Source\TimerProjc\Variant_Horror</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TimerProjc\Variant_Horror\HorrorGameMode.h">
+      <Filter>Source\TimerProjc\Variant_Horror</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TimerProjc\Variant_Horror\HorrorPlayerController.cpp">
+      <Filter>Source\TimerProjc\Variant_Horror</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TimerProjc\Variant_Horror\HorrorPlayerController.h">
+      <Filter>Source\TimerProjc\Variant_Horror</Filter>
+    </ClInclude>
+    <Filter Include="Source\TimerProjc\Variant_Horror\UI">
+      <UniqueIdentifier>{E99C3BDE-060C-3719-87AF-6166B68C32C0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TimerProjc\Variant_Horror\UI\HorrorUI.cpp">
+      <Filter>Source\TimerProjc\Variant_Horror\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TimerProjc\Variant_Horror\UI\HorrorUI.h">
+      <Filter>Source\TimerProjc\Variant_Horror\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\TimerProjc\Variant_Shooter">
+      <UniqueIdentifier>{932FF44A-55E7-33F6-83A1-24685C5EB994}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TimerProjc\Variant_Shooter\ShooterCharacter.cpp">
+      <Filter>Source\TimerProjc\Variant_Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TimerProjc\Variant_Shooter\ShooterCharacter.h">
+      <Filter>Source\TimerProjc\Variant_Shooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TimerProjc\Variant_Shooter\ShooterGameMode.cpp">
+      <Filter>Source\TimerProjc\Variant_Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TimerProjc\Variant_Shooter\ShooterGameMode.h">
+      <Filter>Source\TimerProjc\Variant_Shooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TimerProjc\Variant_Shooter\ShooterPlayerController.cpp">
+      <Filter>Source\TimerProjc\Variant_Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TimerProjc\Variant_Shooter\ShooterPlayerController.h">
+      <Filter>Source\TimerProjc\Variant_Shooter</Filter>
+    </ClInclude>
+    <Filter Include="Source\TimerProjc\Variant_Shooter\AI">
+      <UniqueIdentifier>{B67C9795-E221-334C-953E-ABBAA00EA04B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TimerProjc\Variant_Shooter\AI\EnvQueryContext_Target.cpp">
+      <Filter>Source\TimerProjc\Variant_Shooter\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TimerProjc\Variant_Shooter\AI\EnvQueryContext_Target.h">
+      <Filter>Source\TimerProjc\Variant_Shooter\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TimerProjc\Variant_Shooter\AI\ShooterAIController.cpp">
+      <Filter>Source\TimerProjc\Variant_Shooter\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TimerProjc\Variant_Shooter\AI\ShooterAIController.h">
+      <Filter>Source\TimerProjc\Variant_Shooter\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TimerProjc\Variant_Shooter\AI\ShooterNPC.cpp">
+      <Filter>Source\TimerProjc\Variant_Shooter\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TimerProjc\Variant_Shooter\AI\ShooterNPC.h">
+      <Filter>Source\TimerProjc\Variant_Shooter\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TimerProjc\Variant_Shooter\AI\ShooterStateTreeUtility.cpp">
+      <Filter>Source\TimerProjc\Variant_Shooter\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TimerProjc\Variant_Shooter\AI\ShooterStateTreeUtility.h">
+      <Filter>Source\TimerProjc\Variant_Shooter\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\TimerProjc\Variant_Shooter\UI">
+      <UniqueIdentifier>{352B964C-D7A1-3813-9B41-8AF8CCD55F0C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TimerProjc\Variant_Shooter\UI\ShooterBulletCounterUI.cpp">
+      <Filter>Source\TimerProjc\Variant_Shooter\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TimerProjc\Variant_Shooter\UI\ShooterBulletCounterUI.h">
+      <Filter>Source\TimerProjc\Variant_Shooter\UI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TimerProjc\Variant_Shooter\UI\ShooterUI.cpp">
+      <Filter>Source\TimerProjc\Variant_Shooter\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TimerProjc\Variant_Shooter\UI\ShooterUI.h">
+      <Filter>Source\TimerProjc\Variant_Shooter\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\TimerProjc\Variant_Shooter\Weapons">
+      <UniqueIdentifier>{8A7B31A2-80E2-3020-B67D-EE902DA0605A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TimerProjc\Variant_Shooter\Weapons\ShooterPickup.cpp">
+      <Filter>Source\TimerProjc\Variant_Shooter\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TimerProjc\Variant_Shooter\Weapons\ShooterPickup.h">
+      <Filter>Source\TimerProjc\Variant_Shooter\Weapons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TimerProjc\Variant_Shooter\Weapons\ShooterProjectile.cpp">
+      <Filter>Source\TimerProjc\Variant_Shooter\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TimerProjc\Variant_Shooter\Weapons\ShooterProjectile.h">
+      <Filter>Source\TimerProjc\Variant_Shooter\Weapons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TimerProjc\Variant_Shooter\Weapons\ShooterWeapon.cpp">
+      <Filter>Source\TimerProjc\Variant_Shooter\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TimerProjc\Variant_Shooter\Weapons\ShooterWeapon.h">
+      <Filter>Source\TimerProjc\Variant_Shooter\Weapons</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TimerProjc\Variant_Shooter\Weapons\ShooterWeaponHolder.cpp">
+      <Filter>Source\TimerProjc\Variant_Shooter\Weapons</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TimerProjc\Variant_Shooter\Weapons\ShooterWeaponHolder.h">
+      <Filter>Source\TimerProjc\Variant_Shooter\Weapons</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

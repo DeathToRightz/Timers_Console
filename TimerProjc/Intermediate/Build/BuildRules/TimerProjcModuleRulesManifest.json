@@ -1,0 +1,10 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Timers_Console\\TimerProjc\\Source\\TimerProjc\\TimerProjc.Build.cs",
+		"C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Timers_Console\\TimerProjc\\Plugins\\VisualStudioTools\\Source\\VisualStudioBlueprintDebuggerHelper\\VisualStudioBlueprintDebuggerHelper.Build.cs",
+		"C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Timers_Console\\TimerProjc\\Plugins\\VisualStudioTools\\Source\\VisualStudioTools\\VisualStudioTools.Build.cs",
+		"C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Timers_Console\\TimerProjc\\Source\\TimerProjc.Target.cs",
+		"C:\\Users\\logan\\OneDrive\\Documents\\GitHub\\Timers_Console\\TimerProjc\\Source\\TimerProjcEditor.Target.cs"
+	],
+	"EngineVersion": "5.6.1"
+}
