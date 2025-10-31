@@ -131,6 +131,12 @@
     <Filter Include="Source\TimerProjc">
       <UniqueIdentifier>{11804474-886A-368D-A156-5A19464D094D}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\TimerProjc\Enemy.cpp">
+      <Filter>Source\TimerProjc</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TimerProjc\Enemy.h">
+      <Filter>Source\TimerProjc</Filter>
+    </ClInclude>
     <None Include="..\..\Source\TimerProjc\TimerProjc.Build.cs">
       <Filter>Source\TimerProjc</Filter>
     </None>

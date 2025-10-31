@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TimerProjcModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d7920a3e867e47ac3da4a98427161cba2c884f7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b303afc38d8b6b206420ad1b71561ef98cc6dcd9")]
 [assembly: System.Reflection.AssemblyProductAttribute("TimerProjcModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TimerProjcModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

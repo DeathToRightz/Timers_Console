@@ -30,7 +30,7 @@ public:
 
 	void RollCall();
 
-	
+	bool IsActive = false;
 	
 
 	static TArray<FSpawnLocationData> LocationsToSpawn;

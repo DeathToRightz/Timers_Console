@@ -2,6 +2,7 @@
 	"RemapUnityFiles": 
 	{
 		"Module.TimerProjc.cpp.obj": [
+			"Enemy.gen.cpp.obj",
 			"EnvQueryContext_Target.gen.cpp.obj",
 			"HorrorCharacter.gen.cpp.obj",
 			"HorrorGameMode.gen.cpp.obj",
@@ -48,6 +49,7 @@
 			"ShooterProjectile.cpp.obj",
 			"ShooterWeapon.cpp.obj",
 			"ShooterWeaponHolder.cpp.obj",
+			"Enemy.cpp.obj",
 			"Timer_Enemy.cpp.obj"
 		]
 	}
