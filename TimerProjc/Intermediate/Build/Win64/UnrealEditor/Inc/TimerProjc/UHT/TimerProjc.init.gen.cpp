@@ -29,13 +29,13 @@ void EmptyLinkFunctionForGeneratedCodeTimerProjc_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x0605281F,
-				0xC0217CCE,
+				0xEEF5D121,
+				0x96847C9C,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_TimerProjc.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_TimerProjc.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_TimerProjc(Z_Construct_UPackage__Script_TimerProjc, TEXT("/Script/TimerProjc"), Z_Registration_Info_UPackage__Script_TimerProjc, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x0605281F, 0xC0217CCE));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_TimerProjc(Z_Construct_UPackage__Script_TimerProjc, TEXT("/Script/TimerProjc"), Z_Registration_Info_UPackage__Script_TimerProjc, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xEEF5D121, 0x96847C9C));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

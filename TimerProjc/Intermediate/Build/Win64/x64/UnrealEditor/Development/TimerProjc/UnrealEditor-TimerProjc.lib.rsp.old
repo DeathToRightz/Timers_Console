@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-TimerProjc.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:/Users/logan/OneDrive/Documents/GitHub/Timers_Console/TimerProjc/Intermediate/Build/Win64/x64/TimerProjcEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.obj"
+"C:/Users/logan/OneDrive/Documents/GitHub/Timers_Console/TimerProjc/Intermediate/Build/Win64/x64/UnrealEditor/Development/TimerProjc/Module.TimerProjc.cpp.obj"
+"C:/Users/logan/OneDrive/Documents/GitHub/Timers_Console/TimerProjc/Intermediate/Build/Win64/x64/UnrealEditor/Development/TimerProjc/Timer_Enemy.cpp.obj"
+"C:/Users/logan/OneDrive/Documents/GitHub/Timers_Console/TimerProjc/Intermediate/Build/Win64/x64/UnrealEditor/Development/TimerProjc/Default.rc2.res"
+/OUT:"C:/Users/logan/OneDrive/Documents/GitHub/Timers_Console/TimerProjc/Intermediate/Build/Win64/x64/UnrealEditor/Development/TimerProjc/UnrealEditor-TimerProjc.lib"
