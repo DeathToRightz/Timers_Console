@@ -20,9 +20,44 @@ TIMERPROJC_API UClass* Z_Construct_UClass_ATimer_Enemy_NoRegister();
 UPackage* Z_Construct_UPackage__Script_TimerProjc();
 // ********** End Cross Module References **********************************************************
 
+// ********** Begin Class ATimer_Enemy Function ResetEnemyCounter **********************************
+struct Z_Construct_UFunction_ATimer_Enemy_ResetEnemyCounter_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Reset Enemy Counter" },
+		{ "ModuleRelativePath", "Timer_Enemy.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ATimer_Enemy_ResetEnemyCounter_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_ATimer_Enemy, nullptr, "ResetEnemyCounter", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ATimer_Enemy_ResetEnemyCounter_Statics::Function_MetaDataParams), Z_Construct_UFunction_ATimer_Enemy_ResetEnemyCounter_Statics::Function_MetaDataParams)},  };
+UFunction* Z_Construct_UFunction_ATimer_Enemy_ResetEnemyCounter()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ATimer_Enemy_ResetEnemyCounter_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ATimer_Enemy::execResetEnemyCounter)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	ATimer_Enemy::ResetEnemyCounter();
+	P_NATIVE_END;
+}
+// ********** End Class ATimer_Enemy Function ResetEnemyCounter ************************************
+
 // ********** Begin Class ATimer_Enemy *************************************************************
 void ATimer_Enemy::StaticRegisterNativesATimer_Enemy()
 {
+	UClass* Class = ATimer_Enemy::StaticClass();
+	static const FNameNativePtrPair Funcs[] = {
+		{ "ResetEnemyCounter", &ATimer_Enemy::execResetEnemyCounter },
+	};
+	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
 FClassRegistrationInfo Z_Registration_Info_UClass_ATimer_Enemy;
 UClass* ATimer_Enemy::GetPrivateStaticClass()
@@ -73,6 +108,10 @@ struct Z_Construct_UClass_ATimer_Enemy_Statics
 	static const UECodeGen_Private::FClassPropertyParams NewProp_EnemyToSpawn;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
+	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
+		{ &Z_Construct_UFunction_ATimer_Enemy_ResetEnemyCounter, "ResetEnemyCounter" }, // 619119838
+	};
+	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ATimer_Enemy>::IsAbstract,
 	};
@@ -95,11 +134,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_ATimer_Enemy_Statics::C
 	"Engine",
 	&StaticCppClassTypeInfo,
 	DependentSingletons,
-	nullptr,
+	FuncInfo,
 	Z_Construct_UClass_ATimer_Enemy_Statics::PropPointers,
 	nullptr,
 	UE_ARRAY_COUNT(DependentSingletons),
-	0,
+	UE_ARRAY_COUNT(FuncInfo),
 	UE_ARRAY_COUNT(Z_Construct_UClass_ATimer_Enemy_Statics::PropPointers),
 	0,
 	0x009001A4u,
@@ -121,10 +160,10 @@ ATimer_Enemy::~ATimer_Enemy() {}
 struct Z_CompiledInDeferFile_FID_Users_logan_OneDrive_Documents_GitHub_Timers_Console_TimerProjc_Source_TimerProjc_Timer_Enemy_h__Script_TimerProjc_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ATimer_Enemy, ATimer_Enemy::StaticClass, TEXT("ATimer_Enemy"), &Z_Registration_Info_UClass_ATimer_Enemy, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATimer_Enemy), 3156630359U) },
+		{ Z_Construct_UClass_ATimer_Enemy, ATimer_Enemy::StaticClass, TEXT("ATimer_Enemy"), &Z_Registration_Info_UClass_ATimer_Enemy, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATimer_Enemy), 1480998683U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_logan_OneDrive_Documents_GitHub_Timers_Console_TimerProjc_Source_TimerProjc_Timer_Enemy_h__Script_TimerProjc_1162295730(TEXT("/Script/TimerProjc"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_logan_OneDrive_Documents_GitHub_Timers_Console_TimerProjc_Source_TimerProjc_Timer_Enemy_h__Script_TimerProjc_2568461562(TEXT("/Script/TimerProjc"),
 	Z_CompiledInDeferFile_FID_Users_logan_OneDrive_Documents_GitHub_Timers_Console_TimerProjc_Source_TimerProjc_Timer_Enemy_h__Script_TimerProjc_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_logan_OneDrive_Documents_GitHub_Timers_Console_TimerProjc_Source_TimerProjc_Timer_Enemy_h__Script_TimerProjc_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

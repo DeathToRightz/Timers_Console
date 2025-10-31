@@ -26,13 +26,13 @@ public:
 	FTimerHandle TimerHandle;
 
 	void SpawnEnemy();
-
+	
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
 	//Random Direction
-	FVector RandomDirection = UKismetMathLibrary::RandomUnitVector();
+	FVector RandomDirection;
 
 	//Random Distance value to spawn from
 	float Distance;
@@ -40,6 +40,7 @@ protected:
 	//Random location to spawn
 	FVector SpawnLocation;
 
+	
 
 public:
 	// Called every frame
@@ -51,5 +52,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemy Spawner Variables")
 	TSubclassOf<AActor> EnemyToSpawn;
 	
+	static int EnemyCounter;
 
+	UFUNCTION(BlueprintCallable, Category = "Reset Enemy Counter")
+	static void ResetEnemyCounter();
 };

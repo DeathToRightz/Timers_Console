@@ -3,6 +3,7 @@
 
 #include "Timer_Enemy.h"
 
+int ATimer_Enemy::EnemyCounter = 0;  // define and initialize the static variable
 
 
 // Sets default values
@@ -11,13 +12,11 @@ ATimer_Enemy::ATimer_Enemy()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+
 	
 	
 
 }
-
-
-
 
 
 
@@ -41,12 +40,23 @@ void ATimer_Enemy::Tick(float DeltaTime)
 	
 }
 
+void ATimer_Enemy::ResetEnemyCounter()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Counter Reset"));
+
+	EnemyCounter = 0;
+}
+
 
 void ATimer_Enemy::SpawnEnemy()
 {
+//	if (!EnemyToSpawn) { UE_LOG(LogTemp, Error, TEXT("PLEASE ADD ACTOR TO SPAWNER")); return; }
 	Distance = FMath::FRandRange(0, SpawnRadius);
+	 RandomDirection = UKismetMathLibrary::RandomUnitVector();
+
 	SpawnLocation = GetActorLocation() + RandomDirection * Distance;
 	DrawDebugSphere(GetWorld(), SpawnLocation, 15, 4, FColor::Green, false,5);
 
-	UE_LOG(LogTemp, Warning, TEXT("%s"), *SpawnLocation.ToString());
+	EnemyCounter += 1;
+	UE_LOG(LogTemp, Warning, TEXT("%d"), EnemyCounter);
 }

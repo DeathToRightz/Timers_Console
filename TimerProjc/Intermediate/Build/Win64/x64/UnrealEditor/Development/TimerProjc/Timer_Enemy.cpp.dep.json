@@ -7,6 +7,9 @@
         "Includes": [
             "c:\\users\\logan\\onedrive\\documents\\github\\timers_console\\timerprojc\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\timerprojc\\definitions.timerprojc.h",
             "c:\\users\\logan\\onedrive\\documents\\github\\timers_console\\timerprojc\\source\\timerprojc\\timer_enemy.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetmathlibrary.generated.h",
+            "c:\\program files\\epic games\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.inl",
             "c:\\users\\logan\\onedrive\\documents\\github\\timers_console\\timerprojc\\intermediate\\build\\win64\\unrealeditor\\inc\\timerprojc\\uht\\timer_enemy.generated.h"
         ],
         "ImportedModules": [],
