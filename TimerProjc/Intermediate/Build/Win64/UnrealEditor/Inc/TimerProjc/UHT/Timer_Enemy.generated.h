@@ -17,15 +17,9 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class ATimer_Enemy *************************************************************
-#define FID_Users_logan_OneDrive_Documents_GitHub_Timers_Console_TimerProjc_Source_TimerProjc_Timer_Enemy_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
-	DECLARE_FUNCTION(execClearList); \
-	DECLARE_FUNCTION(execRemoveFromLocation); \
-	DECLARE_FUNCTION(execAddSpawnLocation);
-
-
 TIMERPROJC_API UClass* Z_Construct_UClass_ATimer_Enemy_NoRegister();
 
-#define FID_Users_logan_OneDrive_Documents_GitHub_Timers_Console_TimerProjc_Source_TimerProjc_Timer_Enemy_h_22_INCLASS_NO_PURE_DECLS \
+#define FID_Users_logan_OneDrive_Documents_GitHub_Timers_Console_TimerProjc_Source_TimerProjc_Timer_Enemy_h_19_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATimer_Enemy(); \
 	friend struct Z_Construct_UClass_ATimer_Enemy_Statics; \
@@ -36,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(ATimer_Enemy)
 
 
-#define FID_Users_logan_OneDrive_Documents_GitHub_Timers_Console_TimerProjc_Source_TimerProjc_Timer_Enemy_h_22_ENHANCED_CONSTRUCTORS \
+#define FID_Users_logan_OneDrive_Documents_GitHub_Timers_Console_TimerProjc_Source_TimerProjc_Timer_Enemy_h_19_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	ATimer_Enemy(ATimer_Enemy&&) = delete; \
 	ATimer_Enemy(const ATimer_Enemy&) = delete; \
@@ -46,13 +40,12 @@ public: \
 	NO_API virtual ~ATimer_Enemy();
 
 
-#define FID_Users_logan_OneDrive_Documents_GitHub_Timers_Console_TimerProjc_Source_TimerProjc_Timer_Enemy_h_19_PROLOG
-#define FID_Users_logan_OneDrive_Documents_GitHub_Timers_Console_TimerProjc_Source_TimerProjc_Timer_Enemy_h_22_GENERATED_BODY \
+#define FID_Users_logan_OneDrive_Documents_GitHub_Timers_Console_TimerProjc_Source_TimerProjc_Timer_Enemy_h_16_PROLOG
+#define FID_Users_logan_OneDrive_Documents_GitHub_Timers_Console_TimerProjc_Source_TimerProjc_Timer_Enemy_h_19_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_logan_OneDrive_Documents_GitHub_Timers_Console_TimerProjc_Source_TimerProjc_Timer_Enemy_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_logan_OneDrive_Documents_GitHub_Timers_Console_TimerProjc_Source_TimerProjc_Timer_Enemy_h_22_INCLASS_NO_PURE_DECLS \
-	FID_Users_logan_OneDrive_Documents_GitHub_Timers_Console_TimerProjc_Source_TimerProjc_Timer_Enemy_h_22_ENHANCED_CONSTRUCTORS \
+	FID_Users_logan_OneDrive_Documents_GitHub_Timers_Console_TimerProjc_Source_TimerProjc_Timer_Enemy_h_19_INCLASS_NO_PURE_DECLS \
+	FID_Users_logan_OneDrive_Documents_GitHub_Timers_Console_TimerProjc_Source_TimerProjc_Timer_Enemy_h_19_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -24,6 +24,7 @@
 #include "C:/Users/logan/OneDrive/Documents/GitHub/Timers_Console/TimerProjc/Intermediate/Build/Win64/UnrealEditor/Inc/TimerProjc/UHT/TimerProjcPlayerController.gen.cpp"
 #include "C:/Users/logan/OneDrive/Documents/GitHub/Timers_Console/TimerProjc/Intermediate/Build/Win64/UnrealEditor/Inc/TimerProjc/UHT/Timer_Enemy.gen.cpp"
 #include "C:/Users/logan/OneDrive/Documents/GitHub/Timers_Console/TimerProjc/Intermediate/Build/Win64/x64/UnrealEditor/Development/TimerProjc/PerModuleInline.gen.cpp"
+#include "C:/Users/logan/OneDrive/Documents/GitHub/Timers_Console/TimerProjc/Source/TimerProjc/Enemy.cpp"
 #include "C:/Users/logan/OneDrive/Documents/GitHub/Timers_Console/TimerProjc/Source/TimerProjc/TimerProjc.cpp"
 #include "C:/Users/logan/OneDrive/Documents/GitHub/Timers_Console/TimerProjc/Source/TimerProjc/TimerProjcCameraManager.cpp"
 #include "C:/Users/logan/OneDrive/Documents/GitHub/Timers_Console/TimerProjc/Source/TimerProjc/TimerProjcCharacter.cpp"

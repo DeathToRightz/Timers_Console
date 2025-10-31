@@ -6,15 +6,12 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 
+#include "Kismet/KismetMathLibrary.h"
 #include "Timer_Enemy.generated.h"
 
 
 
-struct FSpawnLocationData
-{
-	bool IsCSurrentLocationFilled;
-	FVector CurrentLocaiton;
-};
+
 
 UCLASS()
 class TIMERPROJC_API ATimer_Enemy : public AActor
@@ -28,34 +25,31 @@ public:
 	//Reference to TimerHandle
 	FTimerHandle TimerHandle;
 
-	void RollCall();
-
-	bool IsActive = false;
-	
-
-	static TArray<FSpawnLocationData> LocationsToSpawn;
+	void SpawnEnemy();
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	//Random Direction
+	FVector RandomDirection = UKismetMathLibrary::RandomUnitVector();
+
+	//Random Distance value to spawn from
+	float Distance;
+
+	//Random location to spawn
+	FVector SpawnLocation;
 
 
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	UFUNCTION(BlueprintCallable, Category = "SpawnLocations")
-	static void AddSpawnLocation(FVector NewLocation, bool isActive);
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemy Spawner Variables")
+	float SpawnRadius = 150;
 
-	UFUNCTION (BlueprintCallable, Category = "RemoveFromLocation")
-	static void RemoveFromLocation(FVector currentLocation, bool isActive);
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemy Spawner Variables")
+	TSubclassOf<AActor> EnemyToSpawn;
+	
 
-
-	//This will be used in a button
-	UFUNCTION(BlueprintCallable, Category = "ClearArray")
-	static void ClearList()
-	{
-		LocationsToSpawn.Empty();
-	}
 };

@@ -2,6 +2,7 @@
 	"RemapUnityFiles": 
 	{
 		"Module.TimerProjc.cpp.obj": [
+			"Enemy.gen.cpp.obj",
 			"EnvQueryContext_Target.gen.cpp.obj",
 			"HorrorCharacter.gen.cpp.obj",
 			"HorrorGameMode.gen.cpp.obj",
@@ -23,8 +24,8 @@
 			"TimerProjcCharacter.gen.cpp.obj",
 			"TimerProjcGameMode.gen.cpp.obj",
 			"TimerProjcPlayerController.gen.cpp.obj",
-			"Timer_Enemy.gen.cpp.obj",
 			"PerModuleInline.gen.cpp.obj",
+			"Enemy.cpp.obj",
 			"TimerProjc.cpp.obj",
 			"TimerProjcCameraManager.cpp.obj",
 			"TimerProjcCharacter.cpp.obj",
@@ -47,9 +48,8 @@
 			"ShooterProjectile.cpp.obj",
 			"ShooterWeapon.cpp.obj",
 			"ShooterWeaponHolder.cpp.obj",
-			"Enemy.gen.cpp.obj",
 			"TimerProjc.init.gen.cpp.obj",
-			"Enemy.cpp.obj",
+			"Timer_Enemy.gen.cpp.obj",
 			"Timer_Enemy.cpp.obj"
 		]
 	}

@@ -27,6 +27,7 @@
 			"TimerProjcPlayerController.gen.cpp.obj",
 			"Timer_Enemy.gen.cpp.obj",
 			"PerModuleInline.gen.cpp.obj",
+			"Enemy.cpp.obj",
 			"TimerProjc.cpp.obj",
 			"TimerProjcCameraManager.cpp.obj",
 			"TimerProjcCharacter.cpp.obj",
@@ -49,7 +50,6 @@
 			"ShooterProjectile.cpp.obj",
 			"ShooterWeapon.cpp.obj",
 			"ShooterWeaponHolder.cpp.obj",
-			"Enemy.cpp.obj",
 			"Timer_Enemy.cpp.obj"
 		]
 	}
