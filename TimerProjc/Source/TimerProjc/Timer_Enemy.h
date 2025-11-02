@@ -51,6 +51,7 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemy Spawner Variables")
 	TSubclassOf<AActor> EnemyToSpawn;
+
 	
 	static int EnemyCounter;
 

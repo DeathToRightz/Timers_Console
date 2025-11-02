@@ -33,6 +33,7 @@
 			"TimerProjcCharacter.cpp.obj",
 			"TimerProjcGameMode.cpp.obj",
 			"TimerProjcPlayerController.cpp.obj",
+			"Timer_Enemy.cpp.obj",
 			"HorrorCharacter.cpp.obj",
 			"HorrorGameMode.cpp.obj",
 			"HorrorPlayerController.cpp.obj",
@@ -49,8 +50,7 @@
 			"ShooterPickup.cpp.obj",
 			"ShooterProjectile.cpp.obj",
 			"ShooterWeapon.cpp.obj",
-			"ShooterWeaponHolder.cpp.obj",
-			"Timer_Enemy.cpp.obj"
+			"ShooterWeaponHolder.cpp.obj"
 		]
 	}
 }
