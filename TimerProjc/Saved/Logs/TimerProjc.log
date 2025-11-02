@@ -3644,3 +3644,4 @@ Detoured run took 1.9s
 [2025.11.02-22.41.03:650][951]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.11.02-22.41.03:650][951]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.11.02-22.41.03:650][951]AssetCheck: /Game/BP_DisplayMenu Validating asset
+[2025.11.02-22.41.28:610][200]LogDerivedDataCache: C:/Users/logan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
