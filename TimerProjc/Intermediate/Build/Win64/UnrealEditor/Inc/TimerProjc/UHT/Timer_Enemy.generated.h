@@ -18,6 +18,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class ATimer_Enemy *************************************************************
 #define FID_Users_logan_OneDrive_Documents_GitHub_Timers_Console_TimerProjc_Source_TimerProjc_Timer_Enemy_h_19_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execKillEnemy); \
 	DECLARE_FUNCTION(execResetEnemyCounter);
 
 

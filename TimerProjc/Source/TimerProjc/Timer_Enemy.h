@@ -70,4 +70,7 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Reset Enemy Counter")
 	static void ResetEnemyCounter();
+
+	UFUNCTION(BlueprintCallable, Category = "Kill Enemey")
+	void KillEnemy();
 };

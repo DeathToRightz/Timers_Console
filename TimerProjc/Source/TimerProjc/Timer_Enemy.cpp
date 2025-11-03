@@ -68,6 +68,11 @@ void ATimer_Enemy::ResetEnemyCounter()
 	EnemyCounter = 0;
 }
 
+void ATimer_Enemy::KillEnemy()
+{
+	EnemyCounter -= 1;
+}
+
 
 void ATimer_Enemy::SpawnEnemy()
 {
