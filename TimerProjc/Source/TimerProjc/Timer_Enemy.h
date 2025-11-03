@@ -40,7 +40,8 @@ protected:
 	//Random location to spawn
 	FVector SpawnLocation;
 
-	
+	//Spawn Rotation
+	FRotator SpawnRotation = FRotator(0,0,0);
 
 public:
 	// Called every frame
@@ -52,7 +53,19 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemy Spawner Variables")
 	TSubclassOf<AActor> EnemyToSpawn;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemy Spawner Variables")
+	FName WinLevelName;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemy Spawner Variables")
+	FName LoseLevelName;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemy Spawner Variables")
+	float SpawnTimer = 3;
 	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemy Spawner Variables")
+	float SpawnFirstDelayTimer = 3;
+
+
 	static int EnemyCounter;
 
 	UFUNCTION(BlueprintCallable, Category = "Reset Enemy Counter")

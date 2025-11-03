@@ -30,7 +30,6 @@
 #include "C:/Users/logan/OneDrive/Documents/GitHub/Timers_Console/TimerProjc/Source/TimerProjc/TimerProjcCharacter.cpp"
 #include "C:/Users/logan/OneDrive/Documents/GitHub/Timers_Console/TimerProjc/Source/TimerProjc/TimerProjcGameMode.cpp"
 #include "C:/Users/logan/OneDrive/Documents/GitHub/Timers_Console/TimerProjc/Source/TimerProjc/TimerProjcPlayerController.cpp"
-#include "C:/Users/logan/OneDrive/Documents/GitHub/Timers_Console/TimerProjc/Source/TimerProjc/Timer_Enemy.cpp"
 #include "C:/Users/logan/OneDrive/Documents/GitHub/Timers_Console/TimerProjc/Source/TimerProjc/Variant_Horror/HorrorCharacter.cpp"
 #include "C:/Users/logan/OneDrive/Documents/GitHub/Timers_Console/TimerProjc/Source/TimerProjc/Variant_Horror/HorrorGameMode.cpp"
 #include "C:/Users/logan/OneDrive/Documents/GitHub/Timers_Console/TimerProjc/Source/TimerProjc/Variant_Horror/HorrorPlayerController.cpp"

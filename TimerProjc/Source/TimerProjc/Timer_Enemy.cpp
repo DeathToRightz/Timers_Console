@@ -1,6 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
+#include "Kismet/GameplayStatics.h"
 #include "Timer_Enemy.h"
 
 int ATimer_Enemy::EnemyCounter = 0;  // define and initialize the static variable
@@ -26,8 +26,15 @@ void ATimer_Enemy::BeginPlay()
 {
 	Super::BeginPlay();
 	DrawDebugSphere(GetWorld(), GetActorLocation(), SpawnRadius, 12, FColor::Red, true);
+
 	
-	GetWorldTimerManager().SetTimer(TimerHandle, this, &ATimer_Enemy::SpawnEnemy, 3, true, 3);
+		SpawnEnemy();
+		UE_LOG(LogTemp, Warning, TEXT("Spawn"));
+
+	
+	
+	
+	GetWorldTimerManager().SetTimer(TimerHandle, this, &ATimer_Enemy::SpawnEnemy, SpawnTimer, true, SpawnFirstDelayTimer);
 	
 }
 
@@ -36,7 +43,21 @@ void ATimer_Enemy::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	if (LoseLevelName != "" && WinLevelName != "")
+	{
+		if (EnemyCounter >= 20)
+		{
+			UGameplayStatics::OpenLevel(GetWorld(), LoseLevelName);
+			UE_LOG(LogTemp, Warning, TEXT("Lose LEvel"));
 
+		}
+
+		if (EnemyCounter == 0)
+		{
+			UGameplayStatics::OpenLevel(this, WinLevelName);
+		}
+
+	}
 	
 }
 
@@ -55,7 +76,10 @@ void ATimer_Enemy::SpawnEnemy()
 	 RandomDirection = UKismetMathLibrary::RandomUnitVector();
 
 	SpawnLocation = GetActorLocation() + RandomDirection * Distance;
-	DrawDebugSphere(GetWorld(), SpawnLocation, 15, 4, FColor::Green, false,5);
+
+	FTransform EnemyTransform = FTransform(SpawnRotation, SpawnLocation);
+	GetWorld()->SpawnActor<AActor>(EnemyToSpawn, EnemyTransform);
+	//DrawDebugSphere(GetWorld(), SpawnLocation, 15, 4, FColor::Green, false,5);
 
 	EnemyCounter += 1;
 	UE_LOG(LogTemp, Warning, TEXT("%d"), EnemyCounter);

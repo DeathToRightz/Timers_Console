@@ -103,9 +103,29 @@ struct Z_Construct_UClass_ATimer_Enemy_Statics
 		{ "Category", "Enemy Spawner Variables" },
 		{ "ModuleRelativePath", "Timer_Enemy.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_WinLevelName_MetaData[] = {
+		{ "Category", "Enemy Spawner Variables" },
+		{ "ModuleRelativePath", "Timer_Enemy.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LoseLevelName_MetaData[] = {
+		{ "Category", "Enemy Spawner Variables" },
+		{ "ModuleRelativePath", "Timer_Enemy.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpawnTimer_MetaData[] = {
+		{ "Category", "Enemy Spawner Variables" },
+		{ "ModuleRelativePath", "Timer_Enemy.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SpawnFirstDelayTimer_MetaData[] = {
+		{ "Category", "Enemy Spawner Variables" },
+		{ "ModuleRelativePath", "Timer_Enemy.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_SpawnRadius;
 	static const UECodeGen_Private::FClassPropertyParams NewProp_EnemyToSpawn;
+	static const UECodeGen_Private::FNamePropertyParams NewProp_WinLevelName;
+	static const UECodeGen_Private::FNamePropertyParams NewProp_LoseLevelName;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_SpawnTimer;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_SpawnFirstDelayTimer;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
@@ -119,9 +139,17 @@ struct Z_Construct_UClass_ATimer_Enemy_Statics
 };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATimer_Enemy_Statics::NewProp_SpawnRadius = { "SpawnRadius", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ATimer_Enemy, SpawnRadius), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnRadius_MetaData), NewProp_SpawnRadius_MetaData) };
 const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_ATimer_Enemy_Statics::NewProp_EnemyToSpawn = { "EnemyToSpawn", nullptr, (EPropertyFlags)0x0014000000000005, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ATimer_Enemy, EnemyToSpawn), Z_Construct_UClass_UClass, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_EnemyToSpawn_MetaData), NewProp_EnemyToSpawn_MetaData) };
+const UECodeGen_Private::FNamePropertyParams Z_Construct_UClass_ATimer_Enemy_Statics::NewProp_WinLevelName = { "WinLevelName", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ATimer_Enemy, WinLevelName), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_WinLevelName_MetaData), NewProp_WinLevelName_MetaData) };
+const UECodeGen_Private::FNamePropertyParams Z_Construct_UClass_ATimer_Enemy_Statics::NewProp_LoseLevelName = { "LoseLevelName", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ATimer_Enemy, LoseLevelName), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LoseLevelName_MetaData), NewProp_LoseLevelName_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATimer_Enemy_Statics::NewProp_SpawnTimer = { "SpawnTimer", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ATimer_Enemy, SpawnTimer), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnTimer_MetaData), NewProp_SpawnTimer_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATimer_Enemy_Statics::NewProp_SpawnFirstDelayTimer = { "SpawnFirstDelayTimer", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ATimer_Enemy, SpawnFirstDelayTimer), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpawnFirstDelayTimer_MetaData), NewProp_SpawnFirstDelayTimer_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATimer_Enemy_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATimer_Enemy_Statics::NewProp_SpawnRadius,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATimer_Enemy_Statics::NewProp_EnemyToSpawn,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATimer_Enemy_Statics::NewProp_WinLevelName,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATimer_Enemy_Statics::NewProp_LoseLevelName,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATimer_Enemy_Statics::NewProp_SpawnTimer,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATimer_Enemy_Statics::NewProp_SpawnFirstDelayTimer,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ATimer_Enemy_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_ATimer_Enemy_Statics::DependentSingletons[])() = {
@@ -160,10 +188,10 @@ ATimer_Enemy::~ATimer_Enemy() {}
 struct Z_CompiledInDeferFile_FID_Users_logan_OneDrive_Documents_GitHub_Timers_Console_TimerProjc_Source_TimerProjc_Timer_Enemy_h__Script_TimerProjc_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ATimer_Enemy, ATimer_Enemy::StaticClass, TEXT("ATimer_Enemy"), &Z_Registration_Info_UClass_ATimer_Enemy, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATimer_Enemy), 1480998683U) },
+		{ Z_Construct_UClass_ATimer_Enemy, ATimer_Enemy::StaticClass, TEXT("ATimer_Enemy"), &Z_Registration_Info_UClass_ATimer_Enemy, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATimer_Enemy), 338409304U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_logan_OneDrive_Documents_GitHub_Timers_Console_TimerProjc_Source_TimerProjc_Timer_Enemy_h__Script_TimerProjc_2568461562(TEXT("/Script/TimerProjc"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_logan_OneDrive_Documents_GitHub_Timers_Console_TimerProjc_Source_TimerProjc_Timer_Enemy_h__Script_TimerProjc_2823539439(TEXT("/Script/TimerProjc"),
 	Z_CompiledInDeferFile_FID_Users_logan_OneDrive_Documents_GitHub_Timers_Console_TimerProjc_Source_TimerProjc_Timer_Enemy_h__Script_TimerProjc_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_logan_OneDrive_Documents_GitHub_Timers_Console_TimerProjc_Source_TimerProjc_Timer_Enemy_h__Script_TimerProjc_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
