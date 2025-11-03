@@ -3468,3 +3468,26 @@ Detoured run took 1.7s
 [2025.11.03-02.56.45:233][278]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11424.195312
 [2025.11.03-02.56.46:231][281]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.11.03-02.56.46:231][281]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11424.862305, Update Interval: 327.034515
+[2025.11.03-02.57.26:982][542]LogSlate: Window 'BP_EnemySpawner' being destroyed
+[2025.11.03-02.57.26:995][542]LogSlate: Window 'BP_EnemySpawner' being destroyed
+[2025.11.03-02.57.27:064][542]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.11.03-02.57.27:064][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.03-02.57.27:092][542]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.11.03-02.57.27:092][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.03-02.57.27:180][542]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.11.03-02.57.27:180][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.03-02.57.27:359][542]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.11.03-02.57.27:360][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.03-02.57.27:372][542]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.11.03-02.57.27:372][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.03-02.57.27:441][542]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2025.11.03-02.57.27:441][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.03-02.57.27:455][542]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2025.11.03-02.57.27:455][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.03-02.57.27:537][542]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.11.03-02.57.27:537][542]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2025.11.03-02.57.27:537][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.03-02.57.27:667][542]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.11.03-02.57.27:667][542]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2025.11.03-02.57.27:667][542]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.03-02.57.27:814][542]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
